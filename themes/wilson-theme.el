@@ -72,13 +72,6 @@
    `(font-lock-variable-name-face ((t (:foreground ,wilson-stained-yellow))))
    `(font-lock-type-face ((t (:foreground ,wilson-darker-stained-orange))))
    `(font-lock-warning-face ((t (:foreground ,wilson-darker-stained-orange :bold t))))
-
-   ;; ---------------- Package Specific Stuff -----------
-   ;; Powerline
-   ;;`(powerline-active1 ((t (:background ,wilson-dark-gray :foreground ,wilson-stained-orange))))
-   ;;`(powerline-active2 ((t (:background ,wilson-lighter-gray :foreground ,wilson-darker-stained-white))))
-   ;;`(powerline-inactive1 ((t (:background ,wilson-darker-gray :foreground ,wilson-stained-white))))
-   ;;`(powerline-inactive2 ((t (:background ,wilson-dark-gray :foreground ,wilson-darker-stained-white))))
    ))
 ;;;###autoload
 (when load-file-name

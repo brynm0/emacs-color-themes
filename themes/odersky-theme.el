@@ -28,7 +28,6 @@
       (*comments*           "#999999")
       (*constant*           "#F38630")
       (*current-line*       "#151515")
-      (*cursor-underscore*  "#FFFAAA")
       (*keywords*           "#A7DBD8")
       (*line-number*        "#1E2326")
       (*method-declaration* "#FFD2A7")
@@ -54,10 +53,9 @@
    `(header-line ((t (:background, *mode-line-bg* :foreground, *normal*)))) ;; info header
    `(highlight ((t (:background, *current-line*))))
    `(highlight-face ((t (:background, *current-line*))))
-   `(hl-line ((t (:background, *current-line* :underline t))))
-   `(info-xref ((t (:foreground, *keywords* :underline t))))
+   `(hl-line ((t (:background, *current-line*))))
+   `(info-xref ((t (:foreground, *keywords*))))
    `(region ((t (:background, *visual-selection*))))
-   `(underline ((nil (:underline t))))
 
    ;; font-lock
    `(font-lock-builtin-face ((t (:foreground, *operators*))))
@@ -85,7 +83,7 @@
    `(minibuffer-prompt ((t (:foreground, *variable*))))
    `(mode-line ((t (:background, *mode-line-bg* :foreground, *mode-line-fg*))))
    `(mode-line-inactive ((t (:background, *mode-inactive-bg* :foreground, *mode-inactive-fg*))))
-   `(cursor ((t (:background, *cursor-underscore*))))
+   ;;`(cursor ((t (:background, *cursor-underscore*))))
    ;;`(text-cursor ((t (:background, *cursor-underscore*))))
    `(vertical-border ((t (:foreground, *vborder*)))) ;; between splits
 
